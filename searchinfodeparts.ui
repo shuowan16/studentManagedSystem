@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>searchinfodeparts</class>
+ <widget class="QWidget" name="searchinfodeparts">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1065</width>
+    <height>727</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>431</width>
+     <height>531</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>600</y>
+     <width>431</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="2">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="styleSheet">
+       <string notr="true">font: 9pt &quot;黑体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_search_name"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">font: 9pt &quot;黑体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_search_number"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="styleSheet">
+       <string notr="true">font: 9pt &quot;黑体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>更新/显示所有系别信息</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>NAME:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>ID:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>lineEdit_search_name</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>lineEdit_search_number</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_8</zorder>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1065</width>
+     <height>727</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>tableView</zorder>
+  <zorder>widget_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
